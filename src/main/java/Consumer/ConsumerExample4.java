@@ -1,6 +1,6 @@
 package Consumer;
 
-import Supplier.User;
+import model.User;
 
 public class ConsumerExample4 {
 
@@ -10,6 +10,9 @@ public class ConsumerExample4 {
 
         myConsumerInterface
                 .andThen(MyConsumerInterface::tellAge)
+                .andThen(MyConsumerInterface::tellAge)
                 .accept(new User("Rafa", 38));
+
+
     }
 }

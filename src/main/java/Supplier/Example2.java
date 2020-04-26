@@ -1,5 +1,7 @@
 package Supplier;
 
+import model.User;
+
 import java.util.function.Supplier;
 
 public class Example2 {
